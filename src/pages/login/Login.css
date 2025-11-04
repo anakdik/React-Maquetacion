@@ -1,10 +1,19 @@
-.login-container {
-    background-color: #0f172a;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
+    background-color: #0f172a; /* Fondo azul para login */
 }
 
+.login-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Asegura que ocupe toda la altura de la ventana */
+    width: 100%;    /* Asegura que ocupe todo el ancho de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .login-card {
     background-color: #1e293b;
@@ -13,7 +22,6 @@
     width: 360px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-
 
 .login-title {
     font-size: 1.5rem;
@@ -29,12 +37,10 @@
     margin-bottom: 2rem;
 }
 
-/* Formulario */
 .login-form {
     display: flex;
     flex-direction: column;
 }
-
 
 .login-label {
     font-size: 0.85rem;
@@ -57,7 +63,6 @@
     outline: none;
 }
 
-
 .password-row {
     display: flex;
     justify-content: space-between;
@@ -74,7 +79,6 @@
     text-decoration: underline;
 }
 
-
 .login-button {
     background-color: #2563eb;
     color: white;
@@ -89,7 +93,6 @@
 .login-button:hover {
     background-color: #1d4ed8;
 }
-
 
 .register-text {
     text-align: center;
@@ -106,11 +109,3 @@
 .register-link:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
